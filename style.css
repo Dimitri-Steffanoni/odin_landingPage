@@ -145,3 +145,51 @@ h1{
     display: flex;
 }
 
+
+.last {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.center{
+    flex: 1;
+}
+
+.last > div > p{
+    color: aliceblue;
+    margin: 0;
+    font-size: 20px;
+}
+.last .bold{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.last > div > button{
+    background-color: #3882F6;
+    color: aliceblue;
+    font-size: 20px;
+    border-color: aliceblue;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    border-style: solid;
+}
+
+.center .em_u{
+    height: 100px;
+}
+
+
+.footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: aliceblue;
+    padding: 20px;
+    font-size: 18px;
+}
